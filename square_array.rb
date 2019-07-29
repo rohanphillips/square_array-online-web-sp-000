@@ -5,7 +5,7 @@ def square_array1(array)
     newarray.push(array[x]**2)
     x += 1
   end
-  return newarray
+
 end
 
 def square_array(array)
@@ -15,5 +15,6 @@ def square_array(array)
     newarray.push(array[x]**2)
     x += 1
   end
-  array.collect{|num| num ** 2}
+  return newarray
+  #array.collect{|num| num ** 2}
 end
