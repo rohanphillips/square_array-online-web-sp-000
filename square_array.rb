@@ -1,4 +1,4 @@
-def square_array(array)
+def square_array1(array)
   newarray = []
   x = 0
   array.each do
@@ -6,4 +6,8 @@ def square_array(array)
     x += 1
   end
   return newarray
+end
+
+def square_array(array)
+  array.collect{|num| num ** 2}
 end
