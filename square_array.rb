@@ -5,5 +5,5 @@ def square_array(array)
     newarray.push(array[x]**2)
     x += 1
   end
-  retun newarray
+  return newarray
 end
